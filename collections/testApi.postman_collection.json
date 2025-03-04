@@ -1,0 +1,45 @@
+{
+	"info": {
+		"_postman_id": "6235fc59-ed05-4938-8473-c7792c1bb1df",
+		"name": "test api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "42584524",
+		"_collection_link": "https://www.postman.com/planetary-zodiac-326886/workspace/application-prof/collection/42584524-6235fc59-ed05-4938-8473-c7792c1bb1df?action=share&source=collection_link&creator=42584524"
+	},
+	"item": [
+		{
+			"name": "test",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"response \", function () {\r",
+							"    pm.expect(pm.response.json()).to.be.an('object');\r",
+							"    pm.expect(pm.response.json().message).to.exist;\r",
+							"}); "
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8001/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8001",
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
