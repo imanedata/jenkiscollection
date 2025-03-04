@@ -28,7 +28,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:8001/",
+					"raw": "http://0.0.0.0:8001/",
 					"protocol": "http",
 					"host": [
 						"localhost"
