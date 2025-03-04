@@ -31,7 +31,7 @@
 					"raw": "http://192.168.1.112:8001/",
 					"protocol": "http",
 					"host": [
-						"localhost"
+						"192.168.1.112"
 					],
 					"port": "8001",
 					"path": [
