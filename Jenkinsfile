@@ -12,6 +12,7 @@ pipeline{
             steps{
                 sh 'newman --version'
                 sh 'newman run collections/testApi.postman_collection.json'
+            
             }
         }
     }
